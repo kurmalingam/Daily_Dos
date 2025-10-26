@@ -1,0 +1,22 @@
+.day-box {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.day-box:hover {
+  background-color: #e0e0e0;
+}
+
+.day-box h3 {
+  margin: 0;
+  font-size: 18px;
+}
